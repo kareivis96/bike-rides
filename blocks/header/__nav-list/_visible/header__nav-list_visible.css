@@ -1,0 +1,5 @@
+.header__nav-list_visible {
+  padding: 10px;
+  transform: scaleX(1);
+  max-height: 100px;
+}

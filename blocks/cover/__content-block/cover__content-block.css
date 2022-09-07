@@ -1,0 +1,22 @@
+.cover__content-block {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.32fr;
+  grid-template-rows: 180px 112px 50px 344px;
+  row-gap: 50px;
+  grid-template-areas:
+    "cover-title cover-img"
+    "cover-paragraph cover-img"
+    "cover-button cover-img"
+    "cover-brend-block cover-img";
+}
+
+@media screen and (max-width: 1200px) {
+  .cover__content-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}

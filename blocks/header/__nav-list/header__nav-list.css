@@ -1,0 +1,19 @@
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 34px;
+  row-gap: 20px;
+  max-height: 100px;
+  padding: 0 10px;
+  transform: scalex(1);
+  transform-origin: right;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .header__nav-list {
+    max-height: 0;
+    transform: scalex(0);
+  }
+}

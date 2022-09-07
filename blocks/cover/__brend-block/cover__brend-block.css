@@ -1,0 +1,15 @@
+.cover__brend-block {
+  grid-area: cover-brend-block;
+  justify-self: start;
+  align-self: start;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 117px 0 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .cover__brend-block {
+    display: none;
+  }
+}

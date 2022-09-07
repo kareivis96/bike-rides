@@ -6,3 +6,51 @@
 
 /* ----main styles---- */
 @import url('../blocks/body/body.css');
+
+/* ----header styles---- */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__nav/header__nav.css');
+@import url('../blocks/header/__nav-list/header__nav-list.css');
+@import url('../blocks/header/__nav-link/header__nav-link.css');
+@import url('../blocks/header/__nav-list/_visible/header__nav-list_visible.css');
+@import url('../blocks/header/_hide/header_hide.css');
+
+/* ----menu-button styles---- */
+@import url('../blocks/menu-button/menu-button.css');
+@import url('../blocks/menu-button/__element/menu-button.element.css');
+@import url('../blocks/menu-button/_active/menu-button_active.css');
+
+/* ----cover-section styles---- */
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__content-block/cover__content-block.css');
+@import url('../blocks/cover/__title/cover__title.css');
+@import url('../blocks/cover/__img/cover__img.css');
+@import url('../blocks/cover/__paragraph/cover__paragraph.css');
+@import url('../blocks/cover/__but/cover__but.css');
+@import url('../blocks/cover/__brend-block/cover__brend-block.css');
+@import url('../blocks/cover/__brend-name/cover__brend-name.css');
+@import url('../blocks/cover/__brend-item/cover__brend-item.css');
+
+
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/body/body.css');

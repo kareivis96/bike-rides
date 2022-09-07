@@ -1,0 +1,27 @@
+.header__nav-link {
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  color: #151515;
+  transition: all 0.3s ease;
+}
+
+.header__nav-link::before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  height: 1px;
+  width: 0;
+  background: #151515;
+  opacity: .8;
+  transition: all 0.3s ease;
+}
+
+.header__nav-link:hover {
+  opacity: .8;
+}
+
+.header__nav-link:hover::before {
+  width: 100%;
+}

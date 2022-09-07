@@ -1,0 +1,17 @@
+.cover__img {
+  grid-area: cover-img;
+  justify-self: end;
+  max-width: 610px;
+}
+
+@media screen and (max-width: 1200px) {
+  .cover__img {
+    max-width: 89%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__img {
+    align-self: flex-end;
+  }
+}

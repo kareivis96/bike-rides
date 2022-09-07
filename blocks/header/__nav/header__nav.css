@@ -1,0 +1,12 @@
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .header__nav {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+}
