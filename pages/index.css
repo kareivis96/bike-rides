@@ -1,0 +1,8 @@
+/* ----styles reset---- */
+@import url('../vendor/reset.css');
+
+/* ----main fonts---- */
+@import url('../vendor/fonts/fonts.css');
+
+/* ----main styles---- */
+@import url('../blocks/body/body.css');
