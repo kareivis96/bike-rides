@@ -1,0 +1,9 @@
+.cards__category_active {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: right;
+  color: #151515;
+  opacity: 1;
+}

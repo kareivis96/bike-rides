@@ -1,0 +1,11 @@
+.cards__categories {
+  display: flex;
+  gap: 40px;
+}
+
+
+@media screen and (max-width:  767px) {
+  .cards__categories {
+    display: none;
+  }
+}

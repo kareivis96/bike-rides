@@ -1,17 +1,97 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Велопрогулки</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Велопрогулки</title>
-</head>
-
-<body class="body">
-  <script src="./js/script.js"></script>
-</body>
-
+  <body class="body">
+    <script src="./js/script.js"></script>
+    <section class="cards">
+      <div class="cards__head">
+        <h2 class="cards__title">Велосипеды</h2>
+        <select class="cards__select-category">
+          <option class="cards__category">Шоссе</option>
+          <option class="cards__category">Грэвел</option>
+          <option class="cards__category">ТТ</option>
+        </select>
+        <div class="cards__categories">
+          <p class="cards__category cards__category_active">Шоссе</p>
+          <p class="cards__category">Грэвел</p>
+          <p class="cards__category">ТТ</p>
+        </div>
+      </div>
+      <div class="cards__items">
+        <a
+          href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
+          target="_blank"
+          class="card"
+        >
+          <div class="card__img-block">
+            <img
+              src="./images/cervelo-caledonia-5.png"
+              alt=""
+              class="card__image"
+            />
+            <h3 class="card__title">Cervelo Caledonia-5</h3>
+          </div>
+        </a>
+        <a
+          href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
+          target="_blank"
+          class="card card_visible"
+        >
+          <div class="card__img-block">
+            <img
+              src="./images/cannondale-systemsix-himod.png"
+              alt=""
+              class="card__image"
+            />
+            <h3 class="card__title">Cannondale Systemsix Himod</h3>
+          </div>
+        </a>
+        <a
+          href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
+          target="_blank"
+          class="card card_visible"
+        >
+          <div class="card__img-block">
+            <img
+              src="./images/trek-domane-SL-7.png"
+              alt=""
+              class="card__image"
+            />
+            <h3 class="card__title">Trek Domane SL-7</h3>
+          </div>
+        </a>
+      </div>
+      <div class="cards__paginate">
+        <div class="cards__dot cards__dot_active"></div>
+        <div class="cards__dot"></div>
+        <div class="cards__dot"></div>
+      </div>
+    </section>
+    <section class="training">
+      <h2 class="training__title">Тренировки</h2>
+      <p class="training__text">
+        Чтобы найти маршрут для тренировки можно воспользоваться сервисом
+        Komoot, а записать эти тренировки поможет приложение Strava, а также это
+        приложение позволит построить тренировочный план.
+      </p>
+      <div class="training__links">
+        <a href="https://www.strava.com" class="training__link">Strava</a>
+        <a href="https://www.komoot.com" class="training__link">Komoot</a>
+      </div>
+      <img src="./images/road.png" alt="дорога" class="training__image">
+    </section>
+    <footer class="footer">
+      <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+      <input class="footer__form" placeholder="Ваш e-mail" />
+      <p class="footer__copyright">© Road Club 2021</p>
+    </footer>
+  </body>
 </html>

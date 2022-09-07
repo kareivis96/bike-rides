@@ -1,0 +1,15 @@
+.cards__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+
+@media screen and (max-width:  767px) {
+  .cards__head {
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

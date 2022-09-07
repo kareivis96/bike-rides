@@ -1,0 +1,16 @@
+.card__image {
+  width: 340px;
+  height: 340px;
+  align-self: center;
+  justify-self: center;
+  padding-top: 20px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .card__image {
+    width: 254px;
+    height: 254px;
+    padding-top: 15px;
+  }
+}
