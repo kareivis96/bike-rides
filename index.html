@@ -9,9 +9,35 @@
     <title>Велопрогулки</title>
   </head>
 
-  <body class="body">
-    <script src="./js/script.js"></script>
-    <section class="cards">
+<body class="body">
+  <header class="header">
+    <navigation class="header__nav">
+      <ul class="header__nav-list">
+        <li><a href="#" class="header__nav-link">Покрытия и градиенты</a></li>
+        <li><a href="#" class="header__nav-link">Велосипеды</a></li>
+        <li><a href="#" class="header__nav-link">Тренировки</a></li>
+      </ul>
+      <div class="menu-button">
+        <div class="menu-button__element"></div>
+      </div>
+    </navigation>
+  </header>
+  <main class="main">
+    <section class="cover">
+      <div class="cover__content-block">
+        <h1 class="cover__title">Шоссе, ТТ и Грэвел</h1>
+        <img src="./images/cover/Placeholder.png" alt="горный лес" class="cover__img">
+        <p class="cover__paragraph">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам –
+          нужно только определиться с выбором
+          велосипеда и отправиться в путь.</p>
+        <button class="cover__but">Подробнее</button>
+        <div class="cover__brend-block">
+          <p class="cover__brend-name">Cannondale Systemsix</p>
+          <div class="cover__brend-item"></div>
+        </div>
+      </div>
+    </section>
+        <section class="cards">
       <div class="cards__head">
         <h2 class="cards__title">Велосипеды</h2>
         <select class="cards__select-category">
@@ -88,10 +114,12 @@
       </div>
       <img src="./images/road.png" alt="дорога" class="training__image">
     </section>
-    <footer class="footer">
-      <h2 class="footer__title">Подпишитесь на рассылку —</h2>
-      <input class="footer__form" placeholder="Ваш e-mail" />
-      <p class="footer__copyright">© Road Club 2021</p>
-    </footer>
-  </body>
+  </main>
+  <footer class="footer">
+    <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+    <input class="footer__form" placeholder="Ваш e-mail" />
+    <p class="footer__copyright">© Road Club 2021</p>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
 </html>

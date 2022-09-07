@@ -1,0 +1,29 @@
+.cover__title {
+  grid-area: cover-title;
+  align-self: flex-end;
+  max-width: 300px;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1.09;
+  letter-spacing: -0.5px;
+  color: #151515;
+}
+
+@media screen and (max-width: 1200px) {
+  .cover__title {
+    align-self: center;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cover__title {
+    font-size: 34px;
+    line-height: 1.25;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover__title {
+    align-self: flex-start;
+    max-width: 200px;
+  }
+}
