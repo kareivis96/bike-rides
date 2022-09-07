@@ -1,0 +1,16 @@
+.footer__form {
+  padding: 10px 20px;
+  max-width: 360px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(199, 199, 199, 0.5);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
+  color: #151515;
+  opacity: 0.7;
+  margin-bottom: 100px;
+  background-color: transparent;
+}

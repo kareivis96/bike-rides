@@ -1,0 +1,14 @@
+.cards__paginate {
+  display: none;
+  align-self: center;
+  
+  gap: 5px;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 767px) {
+  .cards__paginate {
+    display: flex;
+  }
+}

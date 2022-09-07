@@ -1,0 +1,8 @@
+.card_visible {
+}
+
+@media screen and (max-width:  767px) {
+  .card_visible {
+    display: none;
+  }
+}
