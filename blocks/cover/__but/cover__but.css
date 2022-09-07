@@ -4,7 +4,7 @@
   justify-self: start;
   box-sizing: border-box;
   padding: 16px 10px;
-  background: #24b47e;
+  background-color: #24b47e;
   color: white;
   border-radius: 4px;
   font-weight: 600;
@@ -12,6 +12,13 @@
   line-height: 1.29;
   text-align: center;
   letter-spacing: 1px;
+  transition: transform .3s ease, background-color .1s linear;
+}
+.cover__but:hover {
+  transform: scale(1.05);
+}
+.cover__but:active {
+  background-color: #1a7d58;
 }
 
 @media screen and (max-width: 320px) {
