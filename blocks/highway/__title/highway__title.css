@@ -1,0 +1,10 @@
+.highway__title {
+	margin: 0 0 50px;
+}
+
+@media (width: 320px) {
+	.highway__title {
+		grid-area: title;
+		margin: 0;
+	}
+}

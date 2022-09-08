@@ -1,0 +1,12 @@
+.highway__img-block {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 50px;
+}
+
+@media (width: 320px) {
+	.highway__img-block {
+		grid-area: img-block;
+		margin: 0;
+	}
+}

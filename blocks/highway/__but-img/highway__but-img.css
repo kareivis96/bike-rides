@@ -1,0 +1,6 @@
+@media (max-width: 320px) {
+	.highway__but-img {
+		width: 5px;
+		height: 10px;
+	}
+}

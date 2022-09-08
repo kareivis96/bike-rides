@@ -1,0 +1,12 @@
+.highway {
+	position: relative;
+	box-sizing: border-box;
+	padding: 60px 0 60px 120px;
+}
+
+@media (max-width: 767px) {
+	.highway {
+		margin: 40px 0 0;
+		padding: 40px 18px 60px;
+	}
+}

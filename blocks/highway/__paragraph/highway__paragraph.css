@@ -1,0 +1,11 @@
+.highway__paragraph {
+	max-width: 460px;
+	margin: 0 0 80px;
+}
+
+@media (width: 320px) {
+	.highway__paragraph {
+		grid-area: paragraph;
+		margin: 0;
+	}
+}

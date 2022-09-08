@@ -1,0 +1,11 @@
+.highway__but-block {
+	display: flex;
+	gap: 0 20px;
+}
+
+@media (width: 320px) {
+	.highway__but-block {
+		grid-area: but-block;
+		gap: 0 10px;
+	}
+}

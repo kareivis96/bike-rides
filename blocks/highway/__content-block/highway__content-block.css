@@ -1,0 +1,19 @@
+.highway__content-block {
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+@media (width: 320px) {
+	.highway__content-block {
+		width: 284px;
+		display: grid;
+		grid-template-rows: 40px 175px 90px;
+		row-gap: 40px;
+		grid-template-columns: min-content min-content;
+		column-gap: 110px;
+		grid-template-areas: 
+		'title but-block'
+		'img-block img-block'
+		'paragraph paragraph';
+	}
+}

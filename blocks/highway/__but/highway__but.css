@@ -1,0 +1,15 @@
+.highway__but {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+}
+
+@media (max-width: 320px) {
+	.highway__but {
+		height: 24px;
+		width: 24px;
+	}
+}
