@@ -1,0 +1,21 @@
+.merks__author-heading {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #222222;
+    opacity: .7;
+}
+
+@media (max-width: 600px) {
+    .merks__author-heading {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 320px) {
+    .merks__author-heading {
+        margin-top: 4px;
+    }
+}

@@ -1,0 +1,13 @@
+.merks__author-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #151515;
+}
+
+@media (max-width: 600px) {
+    .merks__author-name {
+        font-size: 14px;
+        line-height: 1.57;
+    }
+}

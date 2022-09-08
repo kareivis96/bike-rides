@@ -1,0 +1,9 @@
+.merks__img {
+    max-width: 54%;
+}
+
+@media (max-width: 768px) {
+    .merks__img {
+        max-width: 100%;
+    }
+}

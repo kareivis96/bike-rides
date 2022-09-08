@@ -33,6 +33,16 @@
 @import url("../blocks/cover/__brend-name/cover__brend-name.css");
 @import url("../blocks/cover/__brend-item/cover__brend-item.css");
 
+/* ----merks-block styles---- */
+@import url("../blocks/merks/merks.css");
+@import url("../blocks/merks/__content-block/merks__content-block.css");
+@import url("../blocks/merks/__img/merks__img.css");
+@import url("../blocks/merks/__column/merks__column.css");
+@import url("../blocks/merks/__title/merks__title.css");
+@import url("../blocks/merks/__author-block/merks__author-block.css");
+@import url("../blocks/merks/__author-name/merks__author-name.css");
+@import url("../blocks/merks/__author-heading/merks__author-heading.css");
+
 /* ----cards styles---- */
 @import url("../blocks/cards/cards.css");
 @import url("../blocks/cards/__head/cards__head.css");

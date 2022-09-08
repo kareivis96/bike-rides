@@ -1,0 +1,13 @@
+.merks__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 470px;
+}
+
+@media (max-width: 768px) {
+    .merks__column {
+        max-width: 100%;
+        gap: 40px 0;
+    }
+}
