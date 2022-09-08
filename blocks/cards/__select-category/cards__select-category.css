@@ -2,7 +2,7 @@
   display: none;
   border: 1px solid #e3e3e3;
   border-radius: 2px;
-  padding: 8px 64px 8px 12px;
+  padding: 7px 61px 7px 12px;
   background-color: transparent;
   appearance: none;
   background: url(../../../images/Vector.svg) no-repeat right;
@@ -15,7 +15,7 @@
   color: #151515;
 }
 
-@media screen and (max-width:  767px) {
+@media screen and (max-width: 767px) {
   .cards__select-category {
     display: block;
   }

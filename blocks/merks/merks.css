@@ -1,6 +1,14 @@
 .merks {
+    position: relative;
     width: 100%;
     box-sizing: border-box;
-    padding: 100px 18px 60px;
+    padding: 120px 18px 60px;
     background: #F4F4F4;
+}
+
+@media (max-width: 320px) {
+    .merks {
+        padding-top: 20px;
+        margin-top: 40px;
+    }
 }

@@ -22,6 +22,9 @@
 @import url("../blocks/menu-button/__element/menu-button.element.css");
 @import url("../blocks/menu-button/_active/menu-button_active.css");
 
+/* ----border-line styles---- */
+@import url("../blocks/border-line/border-line.css");
+
 /* ----cover-section styles---- */
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__content-block/cover__content-block.css");
