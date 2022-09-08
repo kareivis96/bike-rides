@@ -6,6 +6,7 @@
 @media (width: 320px) {
 	.highway__but-block {
 		grid-area: but-block;
+		align-self: center;
 		gap: 0 10px;
 	}
 }
